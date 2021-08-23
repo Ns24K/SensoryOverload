@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 316571963}
   - component: {fileID: 316571962}
   - component: {fileID: 316571966}
+  - component: {fileID: 316571967}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -173,7 +174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 316571961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c87c42bdbd564e359a48cfc6a0188d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cf02ea8877ae486c8e6e66a926c10ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 316571962}
@@ -270,6 +271,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &316571967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316571961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf02ea8877ae486c8e6e66a926c10ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody: {fileID: 0}
+  jumpAmount: 300
+  speed: 7
 --- !u!1 &553982115
 GameObject:
   m_ObjectHideFlags: 0
