@@ -1,6 +1,3 @@
 Base path: '/Applications/Unity.app/Contents', plugins path '/Applications/Unity.app/Contents/PlaybackEngines'
 Cmd: initializeCompiler
 
-
-Cmd: initializeCompiler
-
